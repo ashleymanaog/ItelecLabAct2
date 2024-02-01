@@ -1,0 +1,63 @@
+.card {
+  transition: 0.3s;
+  width: 350px;
+  border-radius: 20px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  margin: 40px;
+  background-color: white;
+  margin-right: 0px;
+}
+.img_card {
+  border-top-left-radius: 20px 20px;
+  border-top-right-radius: 20px 20px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.card_header {
+  font-family: "Paytone One", sans-serif;
+
+  color: var(--orange);
+  font-size: 1.4em;
+  font-weight: lighter;
+  margin-bottom: 2px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+
+  text-align: left;
+
+  padding-left: 0px;
+}
+.container {
+  padding: 2px 16px;
+}
+
+.skill-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  font-family: "Rubik", sans-serif;
+
+  padding-bottom: 20px;
+  font-weight: bolder;
+}
+
+.skill {
+  padding: 2px 12px;
+  padding-top: 2px !important;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  text-align: left;
+  font-size: 14px;
+}
+.skill2 {
+  padding-left: 0px;
+  padding-bottom: 0px !important;
+}

@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fffef1;
+  font-family: "Rubik", sans-serif;
+}
+
+.navbar {
+  background-color: #fffef1 !important;
+  font-family: Paytone One, sans-serif !important;
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+.header {
+  color: #ff7f11;
+  text-decoration: none;
+  font-family: Paytone One, sans-serif;
+  padding: 10px 5vw;
+}
+
+nav {
+  background-color: #fffef1 !important;
+}

@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&family=Rubik:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+link,
+a,
+button,
+img,
+h1 {
+  user-select: none;
+}
+
+:root {
+  --orange: #ff7f11;
+  --dark_gray: #191919;
+  --light_gray: #787877;
+  --white: #ffffff;
+  --pastel_green: #ddffe7;
+  --pastel_purple: #f2ddff;
+  --salmon: #ff785a;
+  --yellow: #fffef1; /* BG */
+  --blue: #5fb2ff; /* LINKS*/
+  --pastel_blue: #ddf3ff; /* TAGS */
+  --pastel_red: #ffdddd; /* TAGS */
+}
+/* You will type "var(--blue)" to use the root colors 🙂 */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* html,
+#__next,
+body {
+  min-height: 100vh;
+  width: 100%;
+} */
+body {
+  background-color: #fffef1;
+  font-family: "Rubik", sans-serif;
+}
+
+/* #__next {
+  display: flex;#
+  flex-direction: column;
+} */
+
+.map_container {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+main {
+  min-height: calc(100vh - 150px);
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fffef1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--orange);
+}
