@@ -1,12 +1,13 @@
 const foodData = [
   {
-    name: "Midnight Coffee",
-    address: "1039 Lotus de Cataluña bldg., Sampaloc, Philippines    ",
-    skill: "All",
+    name: "24 Chicken P. Noval-Dapitan UST",
+    address: "1173 Padre Noval St, Sampaloc, Manila, 1015 Metro Manila",
+    skill: "Chicken",
     skill2: "₱, ₱₱",
-    skill3: "Coffee",
-    skill4: "Brownies",
-    img2: "midnight.png",
+    skill3: "Korean",
+    skill4: "Food",
+    img2: "chicken.jpg",
+    closingHours: true,
   },
 
   {
@@ -20,13 +21,14 @@ const foodData = [
   },
 
   {
-    name: "24 Chicken P. Noval-Dapitan UST",
-    address: "1173 Padre Noval St, Sampaloc, Manila, 1015 Metro Manila",
-    skill: "Chicken",
+    name: "Midnight Coffee",
+    address: "1039 Lotus de Cataluña bldg., Sampaloc, Philippines    ",
+    skill: "All",
     skill2: "₱, ₱₱",
-    skill3: "Korean",
-    skill4: "Food",
-    img2: "chicken.jpg",
+    skill3: "Coffee",
+    skill4: "Brownies",
+    img2: "midnight.png",
+    closingHours: true,
   },
 ];
 

@@ -9,10 +9,14 @@ function Foodchain(props) {
         alt="Avatar"
         style={{ width: "100%", height: "150px" }}
       ></img>
+
+      {props.foodObj.closingHours ? <p className="closingHourstext"></p> : ""}
+
       <div className="container">
         <h4 className="card_header">{props.foodObj.name}</h4>
         <SkillList />
       </div>
+      <div className="container"></div>
     </div>
   );
   function SkillList() {
